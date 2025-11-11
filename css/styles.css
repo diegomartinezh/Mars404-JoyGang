@@ -3,12 +3,17 @@
   /* Colors - Space Theme */
   --color-space-dark: #0a0e27;
   --color-mars-red: #cd5c5c;
+  --color-mars-light: #ff9e80;
   --color-mars-orange: #ff6b35;
+  --color-mars-dark: #8b0000;
   --color-accent: #00d9ff;
 
   /* Typography */
   --font-main: "Alan Sans", sans-serif;
   --font-size-huge: clamp(4rem, 15vw, 12rem);
+  --font-size-large: 2.5rem;
+  --font-size-medium: 1.5rem;
+  --font-size-small: 1rem;
 
   /* Spacing */
   --space-md: 2rem;
@@ -21,10 +26,73 @@ body {
   background-image: url("../assets/images/Lemon_Mars.png");
 }
 
+.main-title {
+  font-family: "VT323", monospace;
+  font-size: var(--font-size-huge);
+  color: var(--color-mars-light);
+  text-align: center;
+  margin-top: var(--space-md);
+  animation: float 3s ease-in-out infinite;
+}
+
+.subtitle {
+  font-family: var(--font-main);
+  font-size: var(--font-size-large);
+  color: var(--color-mars-red);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.btn {
+  background-color: var(--color-mars-orange);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-family: var(--font-main);
+  font-size: var(--font-size-medium);
+  cursor: pointer;
+  transition: background-color var(--transition-normal);
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: var(--space-md);
+}
+
+.skull-svg {
+  margin-left: 0.5rem;
+}
+
+.btn:hover {
+  background-color: var(--color-mars-dark);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
 .vt323-regular {
   font-family: "VT323", monospace;
   font-weight: 400;
   font-style: normal;
+}
+
+.color1 {
+  color: #2e0b09;
+}
+.color2 {
+  color: #4b2117;
+}
+.color3 {
+  color: #6e3f26;
+}
+.color4 {
+  color: #966336;
+}
+.color5 {
+  color: #c09547;
 }
 
 /* Floating animation */
