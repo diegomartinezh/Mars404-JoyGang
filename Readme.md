@@ -1,4 +1,5 @@
-https://ruvebal.github.io/web-atelier-udit/lessons/en/404/hackathon/hackathon-guide.html
+Link to the html page:
+https://diegomartinezh.github.io/Mars404-JoyGang/
 
 Group Names:
 Diego Martinez -
@@ -6,3 +7,5 @@ Arseniy Lugovoy -
 Rodrigo Garcia -
 Keving Zhang -
 Serafima Robbe
+
+
