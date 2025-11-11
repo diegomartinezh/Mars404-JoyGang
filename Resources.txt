@@ -1,8 +1,0 @@
-Tecnical Resources
-1. Visual Studio Code (HTML)
-2. Krita (Background)
-
-Visual Resources
-3. https://www.esa.int/ESA_Multimedia/Images/2020/03/The_inner_Solar_System
-4. fonts.google.com
-
