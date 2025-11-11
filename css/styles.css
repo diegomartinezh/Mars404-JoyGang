@@ -106,6 +106,7 @@ body {
 @media (max-width: 600px) {
   body {
     background-image: url("../assets/images/Vertical_Mars.png");
+    background-size: cover;
   }
   .btn-container {
     margin-top: var(--space-lg);
